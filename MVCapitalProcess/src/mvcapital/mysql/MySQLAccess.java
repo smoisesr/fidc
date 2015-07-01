@@ -36,7 +36,7 @@ public class MySQLAccess
 		MySQLAccess.port = port;
 		MySQLAccess.password = password;		
 	}	
-	@SuppressWarnings("resource")
+
 	public static void readConf()
 	{
 		BufferedReader reader = null;
@@ -104,7 +104,6 @@ public class MySQLAccess
 
 	}
 
-	@SuppressWarnings("resource")
 	public static void readConf(String pathConf)
 	{
 		BufferedReader reader = null;
